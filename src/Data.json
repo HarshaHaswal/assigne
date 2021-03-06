@@ -1,0 +1,37 @@
+[{ 
+    "Description":"freight",
+    "Name":"fright",
+    "Price":"USD 179",
+    "Unit":"per container",
+    "Tax":"-",
+    "Exchange Rate":"100",
+    "Final Payment":"INR2000"
+},
+{ 
+    "Description":"Free In",
+    "Name":"Free In",
+    "Price":"USD 180",
+    "Unit":"per container",
+    "Tax":"-",
+    "Exchange Rate":"100",
+    "Final Payment":"INR2000"
+},
+{ 
+    "Description":"BI Fee",
+    "Name":"BI Fee",
+    "Price":"Ti175",
+    "Unit":"per BI",
+    "Tax":"18%",
+    "Exchange Rate":"100",
+    "Final Payment":"INR2000"
+},
+{ 
+    "Description":"temporary",
+    "Name":"temporary accept",
+    "Price":"USD 540",
+    "Unit":"per container",
+    "Tax":"18%",
+    "Exchange Rate":"70.79",
+    "Final Payment":"INR2000"
+}
+]

@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import "./App.css"
 import firebase from "firebase"
 import StyledFirebaseAuth from "react-firebaseui/StyledFirebaseAuth"
-import RowSelection from "./RowSelection"
+import BasicTable from "./BasicTable"
 
 firebase.initializeApp({
   apiKey: "AIzaSyDLoqcbTDMFuurtAyDgVEKZ6qwo0j0Osjk",
@@ -35,14 +35,14 @@ class App extends Component {
   render() {
     return (
      
-      <div className="App">
-      <RowSelection/>
+      <div>
+      
 
         {this.state.isSignedIn ? (
           <span>
             <div>Signed In!</div>
             <button onClick={() => firebase.auth().signOut()}>Sign out!</button>
-            <h1>Welcome {firebase.auth().currentUser.displayName}</h1>
+            <h1>Welcome <BasicTable/>{firebase.auth().currentUser.displayName}</h1>
             <img
               alt="profile picture"
               src={firebase.auth().currentUser.photoURL}
